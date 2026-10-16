@@ -56,50 +56,54 @@ public class SampleClass {
         // int[] vars3[];
         // int[] vars4[], space [][];
 
-        String pokemon = "Charizard";
-        String anime = "Solo Leveling";
+        // String pokemon = "Charizard";
+        // String anime = "Solo Leveling";
 
-        boolean b = pokemon.equals(anime);
-        System.out.println(b);
-        String name = new String("Bruh");// Object , independent
+        // boolean b = pokemon.equals(anime);
+        // System.out.println(b);
+        // String name = new String("Bruh");// Object , independent
 
-        System.out.println(name.toString());
+        // System.out.println(name.toString());
 
         // CREATING AN OBJECT:
         // new ___
         // concat
 
-        String s1 = "1";
-        String s2 = s1.concat("2");
-        s2.concat("3");
-        System.out.println(s2);
+        // String s1 = "1";
+        // String s2 = s1.concat("2");
+        // s2.concat("3");
+        // System.out.println(s2);
 
-        // String y; not an object
-        // String x; not an object
-        // String z = String y + new String(); 2 objects created in this line.
+        // // String y; not an object
+        // // String x; not an object
+        // // String z = String y + new String(); 2 objects created in this line.
 
-        class Dog {
-            public String color; // example 1
-            public static String name; // example 2
-        }
+        // class Dog {
+        //     public String color; // example 1
+        //     public static String name; // example 2
+        // }
 
         // example 1
-        Dog myDog = new Dog();
-        myDog.color = "midori";
-        System.out.println(myDog.color);
+        // Dog myDog = new Dog();
+        // myDog.color = "midori";
+        // System.out.println(myDog.color);
 
-        // example 2
-        Dog.name = "ChieSan";
-        System.out.println(Dog.name);
+        // // example 2
+        // Dog.name = "ChieSan";
+        // System.out.println(Dog.name);
     
 
-        //In different, java class
-        Animal cat= new Animal();
+        // //In different, java class
+        // Animal cat= new Animal();
 
-        cat.color="white";
-        cat.bruh="name"; 
+        // cat.color="white";
+        // cat.bruh="name"; 
 
-        System.out.println(cat.color);
+        // System.out.println(cat.color);
+
+        
+
+        }
 
 
 
