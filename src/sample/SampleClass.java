@@ -1,7 +1,8 @@
 package sample;
 
 public class SampleClass {
-    static int onlyOneBranch;
+    static int onlyOneBranch; // this is a global variable
+    public String color; // Null is the value of this!, this is an object.
 
     public static void main(String... args) {
         // System.out.println("Hello World");
@@ -64,8 +65,7 @@ public class SampleClass {
 
         System.out.println(name.toString());
 
-
-        // CREATING AN OBJECT: 
+        // CREATING AN OBJECT:
         // new ___
         // concat
 
@@ -74,9 +74,35 @@ public class SampleClass {
         s2.concat("3");
         System.out.println(s2);
 
-        // String y;    not an object
-        // String x;    not an object
+        // String y; not an object
+        // String x; not an object
         // String z = String y + new String(); 2 objects created in this line.
+
+        class Dog {
+            public String color; // example 1
+            public static String name; // example 2
+        }
+
+        // example 1
+        Dog myDog = new Dog();
+        myDog.color = "midori";
+        System.out.println(myDog.color);
+
+        // example 2
+        Dog.name = "ChieSan";
+        System.out.println(Dog.name);
+    
+
+        //In different, java class
+        Animal cat= new Animal();
+
+        cat.color="white";
+        cat.bruh="name"; 
+
+        System.out.println(cat.color);
+
+
+
 
 
 
